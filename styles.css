@@ -21,35 +21,6 @@ header {
     color: #061515;
     /* background: url(header.webp) no-repeat center/cover; */
 }
-/* .slider{
-    height: 350px;
-    margin: auto;
-    position: relative;
-    width: 90%;
-    display: grid;
-    place-items: center;
-}
-.slide-track{
-    display: flex;
-    width: calc(250px * 18);
-}
-
-.slide{
-    height: 200px;
-    width: 250px;
-    display: flex;
-    align-items: center;
-    padding: 15px;
-    perspective: 100px;
-
-}
-img {
-    width: 100%;
-    transition: transform 1s;
-}
-img:hover{
-    transform: translateZ(40px);
-} */
 
 
 header .logo {
