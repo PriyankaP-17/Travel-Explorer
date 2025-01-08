@@ -1,0 +1,251 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 2;
+    color: #010000;
+    display: grid;
+    background-position: center;
+  
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px; 
+    margin-bottom: 50pxpx;
+    background: #6bb2c6;
+    color: #061515;
+    /* background: url(header.webp) no-repeat center/cover; */
+}
+/* .slider{
+    height: 350px;
+    margin: auto;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: center;
+}
+.slide-track{
+    display: flex;
+    width: calc(250px * 18);
+}
+
+.slide{
+    height: 200px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+
+}
+img {
+    width: 100%;
+    transition: transform 1s;
+}
+img:hover{
+    transform: translateZ(40px);
+} */
+
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0.5px;
+    margin-bottom: 20px;
+}
+
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: rgb(13, 6, 6);
+    text-decoration: none;
+    font-style: oblique;
+    font-size: large;
+    font-weight: bolder;
+ 
+    
+}
+
+
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background: url('slide3.png') no-repeat center center/cover;
+    opacity: 0.95;
+    color: rgb(5, 2, 2);
+    padding: 200px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background: #FF5722;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Destinations Section */
+#destinations {
+    padding: 20px;
+    background: url(destbackg.jpg) no-repeat center/cover #a99797;
+}
+
+#destinations h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.destination-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+   
+}
+
+
+.destination-card {
+
+    background:  rgb(255, 253, 253);
+    border: 1px solid #dac8c8;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+  
+}
+
+
+.destination-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    
+}
+
+
+.destination-card h3 {
+    margin: 10px 0;
+}
+
+.destination-card p {
+    padding: 0 5px 20px;
+}
+
+/* Services Section */
+#services {
+    padding: 200px;
+    text-align: center;
+    background: url(thailand.jpeg) no-repeat center/cover;
+}
+
+.services-list {
+    list-style: none;
+    padding: 0;
+}
+
+.services-list li {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+/* Contact */
+.contact-section {
+    background: #b89c9c;
+    padding: 2rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   
+  
+}
+
+.contact-section h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.contact-section p {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #050101;
+}
+
+.contact-details {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contact-details p {
+    margin: 0.5rem 0;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 2px solid #341c1c;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: #007bff;
+    color: #ebdcdc;
+    border: none;
+   
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #0056b3;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 20px;
+    background: #d41f1f;
+    color: white;
+}
